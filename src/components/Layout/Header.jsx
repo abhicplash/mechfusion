@@ -3,23 +3,18 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    // <div className="w-full bg-[#ecf8f9] text-white justify-center items-center flex  h-[10vh] ">
-    //   <div className="w-[80%] flex justify-between bg-[#002060] px-16 items-center h-[9vh] border rounded-full">
-    //     <h1 className="text-4xl font-bold">MF</h1>
-    //     <ul className="flex capitalize gap-20">
-    //       <li>Home</li>
-    //       <li>Services</li>
-    //       <li>Team</li>
-    //       <li>contact</li>
-    //     </ul>
-    //   </div>
-    // </div>
+   
 
-    <div className="w-full flex justify-between bg-[#002060]  text-white uppercase  px-32 items-center h-[9vh]">
+    <div className="w-full flex justify-between bg-[#002060]   text-white  px-32 items-center h-[9vh]">
       <Link to={"/"}>
-        <h1 className="text-4xl font-bold cursor-pointer ">
-          Mech <span className="text-[#595959]">fusion</span>
-        </h1>
+        <div className="flex flex-col gap-0 justify-center items-end ">
+          <h1 className="text-4xl font-bold cursor-pointer    ">
+            Mech<span className="text-[#595959]">Fusion</span>
+          </h1>
+          <h1 className="text-sm font-semibold text-[#595959] mt-[-5px] uppercase">
+            Engineering Solutions
+          </h1>
+        </div>
       </Link>
       <ul className="flex capitalize gap-20 text-[#089cla] font-semibold">
         <Link to={"/"}>

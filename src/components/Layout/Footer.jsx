@@ -16,7 +16,7 @@ function Footer() {
                 Mech <span className="text-[#595959]">fusion</span>
               </h1>
             </Link>
-            <h1 className="text-2xl">Engineering Solution</h1>
+            <h1 className="text-2xl">Engineering Solutions</h1>
           </div>
           <h1>
             Santhosh nagar <br />

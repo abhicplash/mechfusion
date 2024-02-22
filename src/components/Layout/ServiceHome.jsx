@@ -22,7 +22,7 @@ function ServiceHome() {
       <div className=" flex w-full flex-wrap p-8 justify-center gap-4">
         <div>
         <div className="w-[17rem] h-[11rem] bg-home-Services_one bg-cover bg-center" />
-          <div className=" w-[17rem] h-[21rem] bg-[#ecf8f9]/70 shadow-sm shadow-[#002060] text-[#002060]  font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
+          <div className=" w-[17rem] h-[21rem] bg-[#ecf8f9]/70 shadow-sm shadow-[#002060] text-[#002060] duration-1000 font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
             <h1 className="text-xl font-semibold">
               CNC <br /> Programming
             </h1>
@@ -55,7 +55,7 @@ function ServiceHome() {
         </div>
         <div>
         <div className="w-[17rem] h-[11rem] bg-home-Services_two bg-cover bg-center" />
-          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/90 shadow-sm shadow-[#002060] text-[#002060]  font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
+          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/90 shadow-sm shadow-[#002060] text-[#002060] duration-1000  font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
             <h1 className="text-xl font-semibold">
               CNC <br /> Programming
             </h1>
@@ -89,7 +89,7 @@ function ServiceHome() {
         {/* <div className="w-72 h-72 bg-home-Services_two bg-cover bg-center" /> */}
         <div>
         <div className="w-[17rem] h-[11rem] bg-home-Services_three bg-cover bg-center" />
-          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/70 shadow-sm shadow-[#002060] text-[#002060]  font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
+          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/70 shadow-sm shadow-[#002060] text-[#002060] duration-1000 font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
             <h1 className="text-xl font-semibold">
               CNC <br /> Programming
             </h1>
@@ -122,7 +122,7 @@ function ServiceHome() {
         </div>
         <div>
         <div className="w-[17rem] h-[11rem] bg-home-Services_four bg-cover bg-center" />
-          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/90 shadow-sm shadow-[#002060] text-[#002060]  font-semibold hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
+          <div className="w-[17rem] h-[21rem] bg-[#ecf8f9]/90 shadow-sm shadow-[#002060] text-[#002060]  font-semibold duration-1000 hover:bg-[#002060]  hover:text-white px-8 py-2 flex flex-col items-start gap-5 ">
             <h1 className="text-xl font-semibold">
               CNC <br /> Programming
             </h1>
@@ -148,7 +148,7 @@ function ServiceHome() {
                 </li>
               </ul>
             </p>
-            <button className="border-2 border-[#595959]  hover:text-white px-[3.8rem] py-1 capitalize">
+            <button className="border-2  border-[#595959]  hover:text-white px-[3.8rem] py-1 capitalize">
               view more
             </button>
           </div>
